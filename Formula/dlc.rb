@@ -1,8 +1,8 @@
 require "formula"
 
 class Dlc < Formula
-  url "https://github.com/falsecz/dlc/archive/0.0.2.zip"
-  sha1 "4ca2650ef7027efa2896d1264b1554ed5caef215"
+  url "https://github.com/falsecz/dlc/archive/0.0.3.zip"
+  sha1 "67d65a808cad7346b913738aca544ee6a348bdd7"
 
 
   def install
