@@ -1,6 +1,8 @@
-class Swift12Protobuf < Formula
+class SwiftProtobuf < Formula
   homepage "https://github.com/alexeyxo/protobuf-swift"
-  head "https://github.com/alexeyxo/protobuf-swift.git", :revision => "2ed70fbca99ba17773be744b1c928da379e81525"
+  version "1.6"
+  url "https://github.com/alexeyxo/protobuf-swift/archive/1.6.tar.gz"
+  sha256 "5b8f2c47cd05da2c1c3ca0a96b77e5bd5422933de5d36245ee603c0c6d707bc5"
 
   depends_on "autoconf" => :build
   depends_on "automake" => :build
